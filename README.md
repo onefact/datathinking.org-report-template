@@ -2,6 +2,12 @@
 
 This Typst template for datathinking.org uses the documentation to generate an example report. Citations are synchronized using Zotero and Better BibLaTeX (https://retorque.re/zotero-better-bibtex/).
 
+## Live Preview in Typst Webapp
+
+Check out the live preview here: 
+
+https://typst.app/project/rxs4uRKsJrn8OsghQDkYbA 
+
 ## Getting Started
 
 We recommend using Homebrew on Mac or Chocolatey on Windows to install Visual Studio Code and Zotero:

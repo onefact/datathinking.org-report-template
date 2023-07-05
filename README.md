@@ -2,6 +2,8 @@
 
 This Typst template for datathinking.org uses the documentation to generate an example report. Citations are synchronized using Zotero and Better BibLaTeX (https://retorque.re/zotero-better-bibtex/).
 
+This is featured in the Awesome Typst repository: https://github.com/qjcg/awesome-typst#general
+
 ## Live Preview in Typst Webapp
 
 Check out the live preview here: 
@@ -13,14 +15,16 @@ https://typst.app/project/rxs4uRKsJrn8OsghQDkYbA
 We recommend using Homebrew on Mac or Chocolatey on Windows to install Visual Studio Code and Zotero:
 
 ```bash
-brew install --cask visual-studio-code
+brew install --cask visual-studio-code zotero
 ```
+
+In Windows:
 
 ```powershell
-choco install zotero
+choco install vscode zotero
 ```
 
-We recommend using the Typst Language Server for Visual Studio Code: https://github.com/nvarner/typst-lsp which can generate a PDF on typing or on save.
+We recommend installing the Typst Language Server extension for Visual Studio Code: https://marketplace.visualstudio.com/items?itemName=nvarner.typst-lsp (code: https://github.com/nvarner/typst-lsp) which can generate a PDF on typing or on save.
 
 ## Synchronizing a group library
 

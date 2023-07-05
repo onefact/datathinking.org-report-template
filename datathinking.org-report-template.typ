@@ -121,8 +121,13 @@
   set align(left)
   set pad(x: 60pt)
   par(justify: true)[
-    #smallcaps[bootcamp description.  ] 
-    #abstract
+    #block(
+    fill: luma(230),
+    inset: 8pt,
+    radius: 4pt,
+    smallcaps[project abstract.  ] + abstract,
+  )    
+    //#abstract
   ]
   set align(left)
   columns(2, body)
